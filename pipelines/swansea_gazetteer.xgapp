@@ -48,7 +48,7 @@
         <version>0.3-SNAPSHOT</version>
       </gate.creole.Plugin-Maven>
       <gate.util.persistence.PersistenceManager-URLHolder>
-        <urlString>$relpath$../../../plugins/YodiePlugin/</urlString>
+        <urlString>$relpath$../../plugins/YodiePlugin/</urlString>
       </gate.util.persistence.PersistenceManager-URLHolder>
       <gate.creole.Plugin-Maven>
         <group>uk.ac.gate.plugins</group>
@@ -56,7 +56,7 @@
         <version>8.5</version>
       </gate.creole.Plugin-Maven>
       <gate.util.persistence.PersistenceManager-URLHolder>
-        <urlString>$relpath$../../../plugins/VirtualCorpus/</urlString>
+        <urlString>$relpath$../../plugins/VirtualCorpus/</urlString>
       </gate.util.persistence.PersistenceManager-URLHolder>
       <gate.creole.Plugin-Maven>
         <group>uk.ac.gate.plugins</group>
@@ -74,7 +74,7 @@
         <version>0.4</version>
       </gate.creole.Plugin-Maven>
       <gate.util.persistence.PersistenceManager-URLHolder>
-        <urlString>$relpath$../../../plugins/Tagger_ConText/</urlString>
+        <urlString>$relpath$../../plugins/Tagger_ConText/</urlString>
       </gate.util.persistence.PersistenceManager-URLHolder>
       <gate.creole.Plugin-Maven>
         <group>uk.ac.gate.plugins</group>
@@ -85,15 +85,6 @@
     <collectionType>java.util.Collections$UnmodifiableSet</collectionType>
   </urlList>
   <application class="at.ofai.gate.modularpipelines.ParametrizedCorpusControllerPersistence">
-    <corpus class="gate.util.persistence.CorpusPersistence">
-      <docList/>
-      <resourceType>gate.corpora.CorpusImpl</resourceType>
-      <resourceName>GATE Corpus_00017</resourceName>
-      <initParams class="gate.util.persistence.MapPersistence">
-        <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-        <localMap/>
-      </initParams>
-    </corpus>
     <strategiesList class="gate.util.persistence.CollectionPersistence">
       <localList>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
@@ -135,7 +126,7 @@
           </pr>
         </gate.util.persistence.AnalyserRunningStrategyPersistence>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
-          <runMode>1</runMode>
+          <runMode>2</runMode>
           <featureName></featureName>
           <featureValue></featureValue>
           <pr class="gate.util.persistence.LanguageAnalyserPersistence">
@@ -160,7 +151,48 @@
                 <entry>
                   <string>configFileURL</string>
                   <gate.util.persistence.PersistenceManager-RRPersistence>
-                    <uriString>$relpath$../../../bio-yodie-resources/en/gazetteer-en-bio/cased-labels.def</uriString>
+                    <uriString>$relpath$../../bio-yodie-resources/en/gazetteer-en-bio/cased-labels.def</uriString>
+                  </gate.util.persistence.PersistenceManager-RRPersistence>
+                </entry>
+              </localMap>
+            </initParams>
+            <features class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap/>
+            </features>
+          </pr>
+        </gate.util.persistence.AnalyserRunningStrategyPersistence>
+        <gate.util.persistence.AnalyserRunningStrategyPersistence>
+          <runMode>2</runMode>
+          <featureName></featureName>
+          <featureValue></featureValue>
+          <pr class="gate.util.persistence.LanguageAnalyserPersistence">
+            <runtimeParams class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap>
+                <entry>
+                  <string>outputAnnotationSet</string>
+                  <string>Gazetteer</string>
+                </entry>
+                <entry>
+                  <string>outputAnnotationType</string>
+                  <string>Lookup</string>
+                </entry>
+              </localMap>
+            </runtimeParams>
+            <resourceType>com.jpetrak.gate.stringannotation.extendedgazetteer.ExtendedGazetteer</resourceType>
+            <resourceName>ExtGaz2:gazetteer:labels</resourceName>
+            <initParams class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap>
+                <entry>
+                  <string>caseSensitive</string>
+                  <boolean>false</boolean>
+                </entry>
+                <entry>
+                  <string>configFileURL</string>
+                  <gate.util.persistence.PersistenceManager-RRPersistence>
+                    <uriString>$relpath$../../bio-yodie-resources/en/gazetteer-en-bio/uncased-labels.def</uriString>
                   </gate.util.persistence.PersistenceManager-RRPersistence>
                 </entry>
               </localMap>
@@ -190,7 +222,7 @@
               </localMap>
             </runtimeParams>
             <resourceType>com.jpetrak.gate.stringannotation.extendedgazetteer.ExtendedGazetteer</resourceType>
-            <resourceName>ExtGaz2:gazetteer:labels</resourceName>
+            <resourceName>tiny_umls</resourceName>
             <initParams class="gate.util.persistence.MapPersistence">
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
@@ -201,7 +233,7 @@
                 <entry>
                   <string>configFileURL</string>
                   <gate.util.persistence.PersistenceManager-RRPersistence>
-                    <uriString>$relpath$../../../bio-yodie-resources/en/gazetteer-en-bio/uncased-labels.def</uriString>
+                    <uriString>$relpath$../../bio-yodie-resources/en/gazetteer-en-bio/tiny_umls.def</uriString>
                   </gate.util.persistence.PersistenceManager-RRPersistence>
                 </entry>
               </localMap>
@@ -242,7 +274,7 @@
                 <entry>
                   <string>configFileURL</string>
                   <gate.util.persistence.PersistenceManager-RRPersistence>
-                    <uriString>$relpath$../../../gazetteer-en/gazetteer/stopwords.def</uriString>
+                    <uriString>$relpath$../../gazetteer-en/gazetteer/stopwords.def</uriString>
                   </gate.util.persistence.PersistenceManager-RRPersistence>
                 </entry>
               </localMap>
@@ -270,7 +302,7 @@
                 <entry>
                   <string>listsURL</string>
                   <gate.util.persistence.PersistenceManager-RRPersistence>
-                    <uriString>$relpath$../gazetteers/generic.def</uriString>
+                    <uriString>$relpath$../../swansea-extensions-v2/resources/gazetteers/generic.def</uriString>
                   </gate.util.persistence.PersistenceManager-RRPersistence>
                 </entry>
                 <entry>
@@ -302,7 +334,7 @@
                 <entry>
                   <string>listsURL</string>
                   <gate.util.persistence.PersistenceManager-RRPersistence>
-                    <uriString>$relpath$../gazetteers/units.def</uriString>
+                    <uriString>$relpath$../../swansea-extensions-v2/resources/gazetteers/units.def</uriString>
                   </gate.util.persistence.PersistenceManager-RRPersistence>
                 </entry>
               </localMap>
@@ -386,7 +418,7 @@
                 <entry>
                   <string>grammarURL</string>
                   <gate.util.persistence.PersistenceManager-RRPersistence>
-                    <uriString>$relpath$../jape/numbers.jape</uriString>
+                    <uriString>$relpath$../../swansea-extensions-v2/resources/jape/numbers.jape</uriString>
                   </gate.util.persistence.PersistenceManager-RRPersistence>
                 </entry>
               </localMap>
@@ -414,7 +446,7 @@
                 <entry>
                   <string>grammarURL</string>
                   <gate.util.persistence.PersistenceManager-RRPersistence>
-                    <uriString>$relpath$../jape/stage1.jape</uriString>
+                    <uriString>$relpath$../../swansea-extensions-v2/resources/jape/stage1.jape</uriString>
                   </gate.util.persistence.PersistenceManager-RRPersistence>
                 </entry>
               </localMap>
@@ -503,7 +535,7 @@
                 <entry>
                   <string>grammarURL</string>
                   <gate.util.persistence.PersistenceManager-RRPersistence>
-                    <uriString>$relpath$../../../gazetteer-en/jape/createQueryFeature.jape</uriString>
+                    <uriString>$relpath$../../gazetteer-en/jape/createQueryFeature.jape</uriString>
                   </gate.util.persistence.PersistenceManager-RRPersistence>
                 </entry>
               </localMap>
@@ -540,7 +572,7 @@
                 <entry>
                   <string>grammarURL</string>
                   <gate.util.persistence.PersistenceManager-RRPersistence>
-                    <uriString>$relpath$../../../gazetteer-en/jape/postProcessLookups.jape</uriString>
+                    <uriString>$relpath$../../gazetteer-en/jape/postProcessLookups.jape</uriString>
                   </gate.util.persistence.PersistenceManager-RRPersistence>
                 </entry>
               </localMap>
@@ -570,6 +602,7 @@
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[12]/pr"/>
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[13]/pr"/>
         <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[14]/pr"/>
+        <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[15]/pr"/>
       </localList>
       <collectionType>java.util.ArrayList</collectionType>
     </prList>
@@ -581,7 +614,7 @@
         <entry>
           <string>configFileUrl</string>
           <gate.util.persistence.PersistenceManager-URLHolder>
-            <urlString>$relpath$../../../main-bio/main-bio.config.yaml</urlString>
+            <urlString>$relpath$../../main-bio/main-bio.config.yaml</urlString>
           </gate.util.persistence.PersistenceManager-URLHolder>
         </entry>
       </localMap>

@@ -1,0 +1,147 @@
+C0422985	Binocular diplopia
+C0429554	Crossed diplopia
+C2183267	diagonal diplopia
+C2183267	diagonal diplopia (symptom)
+C2183757	diplopia at far
+C2183758	diplopia at near
+C2126957	diplopia at near and far
+C2183754	diplopia exacerbating factor
+C2126957	diplopia for both near and far images
+C2126957	diplopia for both near and far images (symptom)
+C2126957	diplopia for both near and far objects
+C2126972	diplopia only when looking down
+C2126972	diplopia only when looking down (symptom)
+C2126973	diplopia only when looking right
+C2126974	diplopia only when looking to left
+C2126974	diplopia only when looking to left (symptom)
+C2126973	diplopia only when looking to right
+C2126973	diplopia only when looking to right (symptom)
+C2126974	diplopia only when looking to the left
+C2126973	diplopia only when looking to the right
+C2126971	diplopia only when looking up
+C2126971	diplopia only when looking up (symptom)
+C2126958	diplopia with both images clear
+C2126958	diplopia with both images clear (symptom)
+C2126972	diplopia with downgaze
+C2183757	diplopia with far images
+C2183757	diplopia with far images (symptom)
+C2183757	diplopia with far objects
+C2126974	diplopia with left gaze
+C2183758	diplopia with near images
+C2183758	diplopia with near images (symptom)
+C2183758	diplopia with near objects
+C2126959	diplopia with one image clear and other fuzzy
+C2126959	diplopia with one image clear and other fuzzy (symptom)
+C2126973	diplopia with right gaze
+C2126971	diplopia with upgaze
+C2126958	diplopia without blurring
+C0751078	Diplopia, intermittent
+C0012569	Double vision
+C3174641	Double vision 1 eye PhenX
+C3174893	Double vision ever PhenX
+C2126957	double vision for both nearby and far away images
+C2126957	double vision for both nearby and far away images
+C2126964	double vision gets worse in certain head positions
+C2126968	double vision gets worse when looking down
+C2126970	double vision gets worse when looking to the left
+C2126969	double vision gets worse when looking to the right
+C2126967	double vision gets worse when looking up
+C2183759	double vision gets worse with exercise
+C2126963	double vision gets worse with fatigue
+C2126966	double vision gets worse with head tilted to the left
+C2126965	double vision gets worse with head tilted to the right
+C2183760	double vision gets worse with heat
+C2126960	double vision gets worse with night driving
+C2183761	double vision gets worse with stress
+C2183755	double vision in left eye
+C0271190	Double vision in one eye
+C2126962	double vision in one eye not wearing glasses
+C2126961	double vision in one eye when wearing glasses
+C2183756	double vision in right eye
+C2126972	double vision only when looking downwards
+C2126974	double vision only when looking to the left
+C2126973	double vision only when looking to the right
+C2126971	double vision only when looking upwards
+C3174639	Double vision PhenX
+C2183267	double vision when moving eyes diagonally
+C0751077	double vision when moving eyes horizontally
+C0751079	double vision when moving eyes vertically
+C0751079	double vision when moving the eyes vertically
+C0422985	Double vision with both eyes open
+C0422985	Double vision with both eyes open (disorder)
+C2126958	double vision with both images clear
+C2183757	double vision with far images
+C2130298	double vision with fuzzy image on left
+C2183758	double vision with nearby images
+C2126959	double vision with one image clear and the other fuzzy
+C2183754	double vision worsened by
+C0422985	Double vision, both eyes open
+C2183754	factors exacerbating diplopia
+C2183754	factors exacerbating diplopia (symptom)
+C3174640	Have you ever had a sudden spell of double vision, which lasted 24 H or longer
+C3174639	Have you ever had a sudden spell of double vision, which lasted 24 H or longer:Find:Pt:^Patient:Ord:PhenX
+C3174639	Have you ever had a sudden spell of double vision, which lasted 24 H or longer:Finding:Point in time:^Patient:Ordinal:PhenX
+C3174639	Have you ever had a sudden spell of double vision, which lasted 24 hours or longer [PhenX]
+C3174894	Have you ever had double vision
+C3174893	Have you ever had double vision [PhenX]
+C3174893	Have you ever had double vision:Find:Pt:^Patient:Ord:PhenX
+C3174893	Have you ever had double vision:Finding:Point in time:^Patient:Ordinal:PhenX
+C2029732	headache preceded by double vision
+C0429554	Heteronymous diplopia
+C0429554	Heteronymous diplopia (disorder)
+C0429553	Homonymous diplopia
+C0429553	Homonymous diplopia (disorder)
+C0751077	horizontal diplopia
+C0751077	horizontal diplopia (symptom)
+C0429556	Incongruous diplopia
+C0429556	Incongruous diplopia (disorder)
+C0751078	intermittent diplopia
+C0751078	intermittent diplopia (symptom)
+C0751078	intermittent double vision
+C0271190	Monocular diplopia
+C0271190	Monocular diplopia (disorder)
+C0429555	Paradoxical diplopia
+C0429555	Paradoxical diplopia (disorder)
+C0271190	Polyopia
+C2095835	post-operative double vision
+C2095835	post-operative double vision (treatment)
+C2095837	post-operative double vision improved
+C2095837	post-operative double vision improved (treatment)
+C2095836	post-operative double vision resolved
+C2095836	post-operative double vision resolved (treatment)
+C2095838	post-operative double vision unchanged
+C2095838	post-operative double vision unchanged (treatment)
+C2095839	post-operative double vision worsened
+C2095839	post-operative double vision worsened (treatment)
+C0271186	Refractive diplopia
+C0271186	refractive diplopia (diagnosis)
+C0271186	Refractive diplopia (disorder)
+C2183754	seeing double images (diplopia) worsens with
+C2183267	seeing double images diagonally
+C2183757	seeing double images far away
+C2126957	seeing double images for both near and far away objects
+C0751077	seeing double images horizontally
+C0271190	seeing double images in one eye
+C0751078	seeing double images intermittently
+C2183758	seeing double images nearby
+C2126972	seeing double images only when looking down
+C2126974	seeing double images only when looking to the left
+C2126973	seeing double images only when looking to the right
+C2126971	seeing double images only when looking up
+C0751079	seeing double images vertically
+C2126958	seeing double images, both images are clear
+C2126959	seeing double images: one image is clear, one is fuzzy
+C0751078	seeing double intermittently
+C3166419	Things occurring with double vision
+C3174643	Things occurring with double vision [PhenX]
+C3174643	Things occurring with double vision:Find:Pt:^Patient:Nom:PhenX
+C3174643	Things occurring with double vision:Finding:Point in time:^Patient:Nominal:PhenX
+C3174644	Things with double vision occur PhenX
+C3174643	Things with double vision PhenX
+C0429553	Uncrossed diplopia
+C0271190	unilateral diplopia
+C0271190	unilateral diplopia (symptom)
+C0271190	Uniocular diplopia
+C0751079	vertical diplopia
+C0751079	vertical diplopia (symptom)
+

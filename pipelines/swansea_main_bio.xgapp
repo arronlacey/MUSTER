@@ -161,7 +161,7 @@
                   </pr>
                 </gate.util.persistence.AnalyserRunningStrategyPersistence>
                 <gate.util.persistence.AnalyserRunningStrategyPersistence>
-                  <runMode>2</runMode>
+                  <runMode>1</runMode>
                   <featureName></featureName>
                   <featureValue></featureValue>
                   <pr class="gate.util.persistence.LanguageAnalyserPersistence">
@@ -198,7 +198,7 @@
                   </pr>
                 </gate.util.persistence.AnalyserRunningStrategyPersistence>
                 <gate.util.persistence.AnalyserRunningStrategyPersistence>
-                  <runMode>2</runMode>
+                  <runMode>1</runMode>
                   <featureName></featureName>
                   <featureValue></featureValue>
                   <pr class="gate.util.persistence.LanguageAnalyserPersistence">
@@ -228,47 +228,6 @@
                           <string>configFileURL</string>
                           <gate.util.persistence.PersistenceManager-RRPersistence>
                             <uriString>$relpath$../../bio-yodie-resources/en/gazetteer-en-bio/uncased-labels.def</uriString>
-                          </gate.util.persistence.PersistenceManager-RRPersistence>
-                        </entry>
-                      </localMap>
-                    </initParams>
-                    <features class="gate.util.persistence.MapPersistence">
-                      <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-                      <localMap/>
-                    </features>
-                  </pr>
-                </gate.util.persistence.AnalyserRunningStrategyPersistence>
-                <gate.util.persistence.AnalyserRunningStrategyPersistence>
-                  <runMode>1</runMode>
-                  <featureName></featureName>
-                  <featureValue></featureValue>
-                  <pr class="gate.util.persistence.LanguageAnalyserPersistence">
-                    <runtimeParams class="gate.util.persistence.MapPersistence">
-                      <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-                      <localMap>
-                        <entry>
-                          <string>outputAnnotationSet</string>
-                          <string>Gazetteer</string>
-                        </entry>
-                        <entry>
-                          <string>outputAnnotationType</string>
-                          <string>Lookup</string>
-                        </entry>
-                      </localMap>
-                    </runtimeParams>
-                    <resourceType>com.jpetrak.gate.stringannotation.extendedgazetteer.ExtendedGazetteer</resourceType>
-                    <resourceName>tiny_umls</resourceName>
-                    <initParams class="gate.util.persistence.MapPersistence">
-                      <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-                      <localMap>
-                        <entry>
-                          <string>caseSensitive</string>
-                          <boolean>false</boolean>
-                        </entry>
-                        <entry>
-                          <string>configFileURL</string>
-                          <gate.util.persistence.PersistenceManager-RRPersistence>
-                            <uriString>$relpath$../../bio-yodie-resources/en/gazetteer-en-bio/tiny_umls.def</uriString>
                           </gate.util.persistence.PersistenceManager-RRPersistence>
                         </entry>
                       </localMap>
@@ -637,7 +596,6 @@
                 <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[12]/pr"/>
                 <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[13]/pr"/>
                 <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[14]/pr"/>
-                <gate.util.persistence.LanguageAnalyserPersistence reference="../../../strategiesList/localList/gate.util.persistence.AnalyserRunningStrategyPersistence[15]/pr"/>
               </localList>
               <collectionType>java.util.ArrayList</collectionType>
             </prList>
